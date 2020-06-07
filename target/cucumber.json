@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-18T16:34:26.463Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7581692000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Purchase printed dress",
+        "description": "",
+        "id": "testing-some-of-the-use-cases-for-the-practice-website;purchase-printed-dress",
+        "after": [
+          {
+            "result": {
+              "duration": 763100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat steps.ShoppingSiteStep.onShoppingSite(ShoppingSiteStep.java:28)\r\n\tat ✽.I am on the automation practice online shop site(file:src/test/java/features/ShoppingSite.feature:5)\r\n",
+              "duration": 10644094800,
+              "status": "pending"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5944300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on the automation practice online shop site",
+            "match": {
+              "location": "ShoppingSiteStep.onShoppingSite()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 156900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15300,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 33300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on casual dresses",
+            "match": {
+              "location": "ShoppingSiteStep.i_click_on_casual_dresses()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 12700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I add the printed dress to my cart",
+            "match": {
+              "location": "ShoppingSiteStep.i_add_the_printed_dress_to_my_cart()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 11100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11500,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "click on proceed to checkout",
+            "match": {
+              "location": "ShoppingSiteStep.click_on_proceed_to_checkout()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 21600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11900,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 31900,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I can see the printed dress in my cart",
+            "match": {
+              "location": "ShoppingSiteStep.i_can_see_the_printed_dress_in_my_cart()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 23300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing some of the use cases for the practice website",
+    "description": "",
+    "id": "testing-some-of-the-use-cases-for-the-practice-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ShoppingSite.feature",
+    "tags": []
+  }
+]
